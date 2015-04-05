@@ -1,0 +1,13 @@
+title@: Grow SDK Redirect Slashes Demo
+
+deployments:
+  slashes_on:
+    destination: gcs
+    bucket: slashes-on.growlaunches.com
+    keep_control_dir: true
+    redirect_trailing_slashes: true
+  slashes_off:
+    destination: gcs
+    bucket: slashes-off.growlaunches.com
+    keep_control_dir: true
+    redirect_trailing_slashes: false
